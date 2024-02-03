@@ -58,26 +58,26 @@ This Flutter project, "My Shop," is a simple shopping app with features such as 
 ## Screenshots
 
 ### Splash Screen
-![Splash Screen](screenshots/splash_screen.jpg)
+![Splash Screen](screenshots/productList.jpg)
 
 ### Product List
-![Product List](screenshots/productlist.jpg)
+![Product List](screenshots/home1.jpg)
 
 ### Product Details
-![Product Details](screenshots/detail.jpg)
+![Product Details](screenshots/cart.jpg)
 
 ### Shopping Cart
-![Shopping Cart](screenshots/shoppingcart.jpg)
+![Shopping Cart](screenshots/Home.jpg)
 
 ### Login Page
 ![Login Page](screenshots/login.jpg)
 
 ### Logout Page
-![Logout Page](screenshots/logout.jpg)
+![Logout Page](screenshots/shopping_cart.jpg)
 
 ### Main Page
-![Main Page](screenshots/home1.jpg)
-![Main Page 2](screenshots/home2.jpg)
+![Main Page](screenshots/logout.jpg)
+![Main Page 2](screenshots/splashScreen.jpg)
 
 ### Search Page
 ![Search Page](screenshots/search.jpg)
