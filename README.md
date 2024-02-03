@@ -61,7 +61,7 @@ This Flutter project, "My Shop," is a simple shopping app with features such as 
   <tr>
     <td align="center">
       <b>Splash Screen</b><br>
-      <img src="screenshots/splashScreen.jpg" alt="Splash Screen" width="300"/>
+      <img src="screenshots/productList.jpg" alt="Splash Screen" width="300"/>
     </td>
     <td align="center">
       <b>Product List</b><br>
@@ -88,12 +88,12 @@ This Flutter project, "My Shop," is a simple shopping app with features such as 
   </tr>
   <tr>
     <td align="center">
-      <b>Main Page</b><br>
-      <img src="screenshots/logout.jpg" alt="Main Page" width="300"/>
+      <b>Home Page</b><br>
+      <img src="screenshots/logout.jpg" alt="Home Page" width="300"/>
     </td>
     <td align="center">
-      <b>Main Page 2</b><br>
-      <img src="screenshots/splashScreen.jpg" alt="Main Page 2" width="300"/>
+      <b>Home Page 2</b><br>
+      <img src="screenshots/splashScreen.jpg" alt="Home Page 2" width="300"/>
     </td>
     <td align="center">
       <b>Search Page</b><br>
