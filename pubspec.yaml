@@ -1,0 +1,31 @@
+name: my_shop
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.5
+  flutter_svg: ^2.0.9
+  flutter_animate: ^4.5.0
+  flutter_carousel_widget: ^2.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+  - images/img1.png
+  - images/img2.png
+  - images/img3.png
+  - images/img4.png
+  - images/img5.png
+  - images/img6.png
+  - images/1.svg
