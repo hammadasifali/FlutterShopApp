@@ -37,7 +37,7 @@ This Flutter project, "My Shop," is a simple shopping app with features such as 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/hammadasifali/Flutter_shop.git
+    git clone https://github.com/hammadasifali/FlutterShopApp.git
     ```
 
 2. Open the project in Visual Studio Code or your preferred IDE.
@@ -101,10 +101,6 @@ This Flutter project, "My Shop," is a simple shopping app with features such as 
     </td>
   </tr>
 </table>
-
-
-
-
 
 ## Dependencies
 
