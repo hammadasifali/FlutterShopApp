@@ -57,7 +57,7 @@ This Flutter project, "My Shop," is a simple shopping app with features such as 
 
 ## Screenshots
 
-_Insert screenshots of your app here, showcasing its various features._
+
 
 ## Dependencies
 
