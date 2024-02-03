@@ -83,7 +83,7 @@ This Flutter project, "My Shop," is a simple shopping app with features such as 
     </td>
     <td align="center">
       <b>Logout Page</b><br>
-      <img src="screenshots/shopping_cart.jpg" alt="Logout Page" width="300"/>
+      <img src="screenshots/shoping_cart.jpg" alt="Logout Page" width="300"/>
     </td>
   </tr>
   <tr>
