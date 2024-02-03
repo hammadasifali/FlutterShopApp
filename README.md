@@ -63,13 +63,13 @@ This Flutter project, "My Shop," is a simple shopping app with features such as 
       <b>Splash Screen</b><br>
       <img src="screenshots/productList.jpg" alt="Splash Screen" width="300"/>
     </td>
-    <td align="center">
-      <b>Product List</b><br>
-      <img src="screenshots/home1.jpg" alt="Product List" width="300"/>
+     <td align="center">
+      <b>Login Page</b><br>
+      <img src="screenshots/login.jpg" alt="Login Page" width="300"/>
     </td>
     <td align="center">
-      <b>Product Details</b><br>
-      <img src="screenshots/cart.jpg" alt="Product Details" width="300"/>
+      <b>Logout Page</b><br>
+      <img src="screenshots/shoping_cart.jpg" alt="Logout Page" width="300"/>
     </td>
   </tr>
   <tr>
@@ -78,12 +78,12 @@ This Flutter project, "My Shop," is a simple shopping app with features such as 
       <img src="screenshots/Home.jpg" alt="Shopping Cart" width="300"/>
     </td>
     <td align="center">
-      <b>Login Page</b><br>
-      <img src="screenshots/login.jpg" alt="Login Page" width="300"/>
+      <b>Product List</b><br>
+      <img src="screenshots/home1.jpg" alt="Product List" width="300"/>
     </td>
     <td align="center">
-      <b>Logout Page</b><br>
-      <img src="screenshots/shoping_cart.jpg" alt="Logout Page" width="300"/>
+      <b>Product Details</b><br>
+      <img src="screenshots/cart.jpg" alt="Product Details" width="300"/>
     </td>
   </tr>
   <tr>
