@@ -57,30 +57,51 @@ This Flutter project, "My Shop," is a simple shopping app with features such as 
 
 ## Screenshots
 
-### Splash Screen
-![Splash Screen](screenshots/productList.jpg)
+<table>
+  <tr>
+    <td align="center">
+      <b>Splash Screen</b><br>
+      <img src="screenshots/splashScreen.jpg" alt="Splash Screen" width="300"/>
+    </td>
+    <td align="center">
+      <b>Product List</b><br>
+      <img src="screenshots/home1.jpg" alt="Product List" width="300"/>
+    </td>
+    <td align="center">
+      <b>Product Details</b><br>
+      <img src="screenshots/cart.jpg" alt="Product Details" width="300"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>Shopping Cart</b><br>
+      <img src="screenshots/Home.jpg" alt="Shopping Cart" width="300"/>
+    </td>
+    <td align="center">
+      <b>Login Page</b><br>
+      <img src="screenshots/login.jpg" alt="Login Page" width="300"/>
+    </td>
+    <td align="center">
+      <b>Logout Page</b><br>
+      <img src="screenshots/shopping_cart.jpg" alt="Logout Page" width="300"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>Main Page</b><br>
+      <img src="screenshots/logout.jpg" alt="Main Page" width="300"/>
+    </td>
+    <td align="center">
+      <b>Main Page 2</b><br>
+      <img src="screenshots/splashScreen.jpg" alt="Main Page 2" width="300"/>
+    </td>
+    <td align="center">
+      <b>Search Page</b><br>
+      <img src="screenshots/search.jpg" alt="Search Page" width="300"/>
+    </td>
+  </tr>
+</table>
 
-### Product List
-![Product List](screenshots/home1.jpg)
-
-### Product Details
-![Product Details](screenshots/cart.jpg)
-
-### Shopping Cart
-![Shopping Cart](screenshots/Home.jpg)
-
-### Login Page
-![Login Page](screenshots/login.jpg)
-
-### Logout Page
-![Logout Page](screenshots/shopping_cart.jpg)
-
-### Main Page
-![Main Page](screenshots/logout.jpg)
-![Main Page 2](screenshots/splashScreen.jpg)
-
-### Search Page
-![Search Page](screenshots/search.jpg)
 
 
 
