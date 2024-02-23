@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:my_shop/home_page.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({
@@ -10,20 +12,57 @@ class LoginPage extends StatefulWidget {
 }
 
 class _LoginPageState extends State<LoginPage> {
-  late String username;
-  late String password;
-  late String enteredUsername;
-  late String enteredPassword;
-
-  @override
-  void initState() {
-    username = "Project";
-    password = "12345678";
-    super.initState();
-  }
-
   TextEditingController usernameEditingController = TextEditingController();
   TextEditingController passwordEditingController = TextEditingController();
+
+  login(String email, String password) async {
+    if (email == "" && password == "") {
+      setState(() {});
+    } else {
+      // ignore: unused_local_variable
+      UserCredential? userCredential;
+      try {
+        userCredential = await FirebaseAuth.instance
+            .signInWithEmailAndPassword(email: email, password: password)
+            .then(
+              (value) => Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const HomePage(),
+                ),
+              ),
+            );
+      } on FirebaseAuthException catch (ex) {
+        if (ex.code == "invalid-email") {
+          setState(
+            () {
+              email = "";
+              password = "";
+            },
+          );
+          // ignore: use_build_context_synchronously
+          ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(
+              content: Text("Invalid Email"),
+            ),
+          );
+        } else if (ex.code == "wrong-password") {
+          setState(
+            () {
+              email = "";
+              password = "";
+            },
+          );
+          // ignore: use_build_context_synchronously
+          ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(
+              content: Text("Invalid Password"),
+            ),
+          );
+        }
+      }
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -91,37 +130,10 @@ class _LoginPageState extends State<LoginPage> {
                 const SizedBox(height: 20),
                 ElevatedButton(
                   onPressed: () {
-                    setState(() {
-                      enteredUsername = usernameEditingController.text;
-                      enteredPassword = passwordEditingController.text;
-                    });
-
-                    if (enteredUsername == username &&
-                        enteredPassword == password) {
-                      Navigator.pushReplacementNamed(context, '/mainPage');
-                    } else {
-                      showDialog(
-                        context: context,
-                        builder: (BuildContext context) {
-                          return AlertDialog(
-                            title: const Text('Login Failed'),
-                            content: const Text(
-                              'Invalid username or password. Please try again.',
-                            ),
-                            actions: <Widget>[
-                              TextButton(
-                                onPressed: () {
-                                  usernameEditingController.clear();
-                                  passwordEditingController.clear();
-                                  Navigator.of(context).pop();
-                                },
-                                child: const Text('OK'),
-                              ),
-                            ],
-                          );
-                        },
-                      );
-                    }
+                    login(
+                      usernameEditingController.text.toString(),
+                      passwordEditingController.text.toString(),
+                    );
                   },
                   style: ElevatedButton.styleFrom(
                     primary: Colors.white,

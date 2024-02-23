@@ -10,11 +10,11 @@ class SearchPage extends StatelessWidget {
         backgroundColor: Colors.indigo,
         shadowColor: Colors.black45,
         surfaceTintColor: Colors.white,
-        actions: [
-          Container(
+        actions: const [
+          SizedBox(
             width: 300,
             height: 50,
-            child: const SearchBar(
+            child: SearchBar(
               leading: Icon(
                 Icons.search,
               ),

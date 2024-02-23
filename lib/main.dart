@@ -1,3 +1,4 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:my_shop/cart_provider.dart';
 import 'package:my_shop/login_page.dart';
@@ -6,7 +7,9 @@ import 'package:my_shop/mainpage.dart';
 import 'package:my_shop/welcoming_page.dart';
 import 'package:provider/provider.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp(
     MultiProvider(
       providers: [
@@ -23,6 +26,7 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Shopping App',
       theme: ThemeData(
         useMaterial3: true,
